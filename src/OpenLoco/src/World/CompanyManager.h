@@ -58,4 +58,6 @@ namespace OpenLoco::CompanyManager
 
     void createPlayerCompany();
     uint8_t getHeadquarterBuildingType();
+
+    void aiDestroy(const CompanyId id);
 }
